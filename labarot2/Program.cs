@@ -23,7 +23,7 @@ namespace Conditional
                     break;
 
                 case '-':
-                    Console.WriteLine(first - second);
+                    zad2(first, second);
                     break;
 
                 case '*':
@@ -41,6 +41,11 @@ namespace Conditional
             }
         }
         public static void zad1(double first, double second)
+        {
+            Console.WriteLine("Результат вычитания: ");
+            Console.WriteLine(first - second);
+        }
+        public static void zad2(double first, double second)
         {
             Console.WriteLine("Результат вычитания: ");
             Console.WriteLine(first - second);

@@ -27,7 +27,7 @@ namespace Conditional
                     break;
 
                 case '*':
-                    Console.WriteLine(first + second);
+                    zad3(first,second);
                     break;
 
                 case '/':
@@ -39,6 +39,11 @@ namespace Conditional
                     break;
 
             }
+        }
+        public static void zad3(double first, double second)
+        {
+            Console.WriteLine("Результат умножения: ");
+            Console.WriteLine(first * second);
         }
     }
 }

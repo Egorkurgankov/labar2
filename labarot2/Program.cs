@@ -31,7 +31,7 @@ namespace Conditional
                     break;
 
                 case '/':
-                    Console.WriteLine(first / second);
+                    zad4(first,second);
                     break;
 
                 default:
@@ -54,6 +54,11 @@ namespace Conditional
         {
             Console.WriteLine("Результат умножения: ");
             Console.WriteLine(first * second);
+        }
+        public static void zad4(double first, double second)
+        {
+            Console.WriteLine("Результат деления: ");
+            Console.WriteLine(first / second);
         }
     }
 }
